@@ -118,7 +118,6 @@ void ghost::initGhost(int x, int y, int dir, bool dead, int Gspeed, int Gcolor) 
 	direction = dir;
 	dead = dead;
 	speed = Gspeed;
-	hitwall = 0;
 	offset = 1;
 	shape.setRadius(PACSIZE);
 	shape.setFillColor(sf::Color(200, 0, 0));
